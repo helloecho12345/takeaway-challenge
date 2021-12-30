@@ -23,12 +23,15 @@ Instructions
 * You must submit a pull request to this repo with your code by 9am Monday morning
 
 Task
------
+----
 
 * Fork this repo
 * Run the command 'bundle' in the project directory to ensure you have all the gems
 * Write a Takeaway program with the following user stories:
 
+
+User Stories
+------------
 ```
 As a customer
 So that I can check if I want to order something
@@ -46,6 +49,19 @@ As a customer
 So that I am reassured that my order will be delivered on time
 I would like to receive a text such as "Thank you! Your order was placed and will be delivered before 18:52" after I have ordered
 ```
+
+
+CLASS DIAGRAMS
+--------------
+CLASS                             | Menu
+PROPERTIES (instance variables)   | list_of_dishes, prices
+ACTIONS (methods)                 | select
+
+CLASS                             | Order
+PROPERTIES (instance variables)   | 
+ACTIONS (methods)                 | order, confirm_total, text
+
+
 
 * Hints on functionality to implement:
   * Ensure you have a list of dishes with prices
