@@ -58,8 +58,8 @@ PROPERTIES (instance variables)   | list_of_dishes, prices
 ACTIONS (methods)                 | select
 
 CLASS                             | Order
-PROPERTIES (instance variables)   | 
-ACTIONS (methods)                 | order, confirm_total, text
+PROPERTIES (instance variables)   | total, text
+ACTIONS (methods)                 | confirm_order, confirm_total, send_text
 
 
 
