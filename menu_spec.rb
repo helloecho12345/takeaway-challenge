@@ -1,4 +1,4 @@
-require "menu.rb"
+require 'menu'
 
 describe Menu do
   it "has a dish with a price" do
