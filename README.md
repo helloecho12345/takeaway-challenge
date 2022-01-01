@@ -14,22 +14,6 @@ Takeaway Challenge
 
  ```
 
-Instructions
--------
-
-* Feel free to use google, your notes, books, etc. but work on your own
-* If you refer to the solution of another coach or student, please put a link to that in your README
-* If you have a partial solution, **still check in a partial solution**
-* You must submit a pull request to this repo with your code by 9am Monday morning
-
-Task
-----
-
-* Fork this repo
-* Run the command 'bundle' in the project directory to ensure you have all the gems
-* Write a Takeaway program with the following user stories:
-
-
 User Stories
 ------------
 ```
@@ -50,17 +34,25 @@ So that I am reassured that my order will be delivered on time
 I would like to receive a text such as "Thank you! Your order was placed and will be delivered before 18:52" after I have ordered
 ```
 
-
 CLASS DIAGRAMS
 --------------
 CLASS                             | Menu
 PROPERTIES (instance variables)   | list_of_dishes, prices
-ACTIONS (methods)                 | select
+ACTIONS (methods)                 | 
 
 CLASS                             | Order
 PROPERTIES (instance variables)   | total, text
-ACTIONS (methods)                 | confirm_order, confirm_total, send_text
+ACTIONS (methods)                 | select, confirm_order, confirm_total
 
+CLASS                             | SendText
+PROPERTIES (instance variables)   | confirmation_text
+ACTIONS (methods)                 | send_text
+
+References
+----------
+Takeaway Challenge Exemplar by Makers : https://github.com/makersacademy/takeaway-exemplar
+Takeaway Challenge Exemplar by Sam Morgan : https://www.youtube.com/watch?v=mgiJKdH9x8c
+Takeaway Challenge by pbaker2018 : https://github.com/pbaker2018/TakeawayChallengeOOP
 
 
 * Hints on functionality to implement:
