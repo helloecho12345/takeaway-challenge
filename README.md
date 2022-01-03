@@ -38,15 +38,27 @@ CLASS DIAGRAMS
 --------------
 CLASS                             | Menu
 PROPERTIES (instance variables)   | list_of_dishes, prices
-ACTIONS (methods)                 | 
+ACTIONS (methods)                 | print_menu
 
 CLASS                             | Order
-PROPERTIES (instance variables)   | total, text
+PROPERTIES (instance variables)   | total
 ACTIONS (methods)                 | select, confirm_order, confirm_total
 
 CLASS                             | SendText
 PROPERTIES (instance variables)   | confirmation_text
 ACTIONS (methods)                 | send_text
+
+
+IMPLEMENTATION PLAN
+-------------------
+- create a Menu class that prints a list_of_dishes with prices for the user to select from
+
+- create an Order class that allows the user to select dishes on the menu
+
+- the order class will also confirm the order and have the user verify the total
+
+- the SendText class will send a confirmation_text of the order and expected delivery time
+
 
 References
 ----------
