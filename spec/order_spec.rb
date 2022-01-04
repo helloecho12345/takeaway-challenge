@@ -8,6 +8,10 @@ describe Order do
   end
   
   it "checks the total of the order is the sum of the dishes" do
-    expect(subject.total).to eq( @total_cost )
+    expect(subject.total).to eq( @total_cost.sum )
+  end
+
+  it "confirms the order" do
+    expect(subject.total).to eq(@total_cost)
   end
 end

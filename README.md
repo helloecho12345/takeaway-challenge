@@ -60,6 +60,11 @@ IMPLEMENTATION PLAN
 - the SendText class will send a confirmation_text of the order and expected delivery time
 
 
+WORK IN PROGRESS!
+-----------------
+Currently working on trying to get the dishes selected pushed into the order_basket array and prices pushed into the total_cost array. Once items are selected, the sum of the array would be calculated. 
+
+
 References
 ----------
 Takeaway Challenge Exemplar by Makers : https://github.com/makersacademy/takeaway-exemplar
